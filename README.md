@@ -73,7 +73,7 @@ Arngren/
 
 ## 🔗 Live Demo
 
-**View it live:** 
+**View it live:** https://skander006.github.io/RetroStore-Redesign/
 
 ---
 
