@@ -58,3 +58,42 @@ Arngren/
 ├── /images
 ├── /fonts (optional)
 └── README.md
+
+
+
+
+# 🧠 Learnings
+
+- Practiced converting legacy designs into responsive layouts  
+- Improved UI with modern design patterns and UX  
+- Gained confidence in writing clean CSS with scalable structure  
+- Learned to implement basic JS interactivity (menu toggle, etc.)
+
+---
+
+## 🔗 Live Demo
+
+**View it live:** 
+
+---
+
+## 📬 Contact
+
+Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/skander-saafi-a987402aa/) or by email if you'd like to collaborate or have feedback!
+Email : skandersaafi52@gmail.com
+
+---
+
+## 📄 License
+
+This project is open source and free to use for learning purposes.
+
+
+
+
+
+
+
+
+
+ 
