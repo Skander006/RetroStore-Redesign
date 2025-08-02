@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>RetroStore Redesign</title>
+    </head>
+    <body>
+        
+        <header>
+            <div class="header__container">
+                <img src="https://www.arngren.net/Cutout_2.gif" alt="website logo" class="logo" id="logo">
+                <h1 class="website__name">Arngren</h1>
+                <div class="burger" id="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <nav class="menu" id="menu">
+                    <a href="#about">About us</a>
+                    <a href="#products">Our Products</a>
+                    <a href="#best">Our Best Sellers</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <section id="about" class="hidden">
+                <div class="about__container">
+                    <h1 class="about__title">About Us</h1>
+                    <div class="bar"></div>
+                    <p class="about__text">
+                        At <span class="gras">Arngren</span>, we believe that online shopping should be more than just a transaction — it should be an experience.  
+                        Born from a passion for clean design and intuitive technology, we’ve taken the traditional online store and reimagined it for the modern age.  
+                        Our platform is built to be fast, responsive, and user-friendly, making it easier than ever to discover great products, compare options, and make confident decisions.  
+                        <br><br>
+                        We’re constantly evolving to meet your needs, offering a carefully curated selection of items across categories you care about — from everyday essentials to innovative tech.  
+                        Every detail of our website has been thoughtfully crafted to offer clarity, comfort, and convenience on every device.  
+                        <br><br>
+                        Whether you’re a casual browser or a regular shopper, <span class="gras">Arngren</span> is here to simplify your digital life — one click at a time.
+                    </p>
+                </div>
+            </section>
+
+            
+
+            <section class="products hidden" id="products">
+                <div class="products__container">
+                    <h1 class="products__title">Our Products</h1>
+                    
+                    <div class="products__list">
+                        <a href="#bikes">
+                            <div class="product" id="product">
+                                <h3 class="product__title">Bikes</h3>
+                                <img src="assets/bikes.jpg" alt="bikes image">
+                                <p>Discover our bikes !</p>
+                            </div>
+                        </a>
+                        <a href="#cars">
+                            <div class="product" id="product">
+                                <h3 class="product__title">Cars</h3>
+                                <img src="assets/cars.jpg" alt="cars image">
+                                <p>Discover our Cars !</p>
+                            </div>
+                        </a>
+                        <a href="#pickups">
+                            <div class="product" id="product">
+                                <h3 class="product__title">Pick-ups</h3>
+                                <img src="assets/pickups.jpg" alt="pickups image">
+                                <p>Discover our Pick-ups !</p>
+                            </div>
+                        </a>
+                        <a href="#motos">
+                            <div class="product" id="product">
+                                <h3 class="product__title">Motorcycles</h3>
+                                <img src="assets/motos.jpg" alt="motos image">
+                                <p>Discover our Motorcycles !</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="best hidden" id="best">
+                <div class="best__container">
+                    <h1 class="best__title">Our Best Sellers</h1>
+                    <div class="best__list">
+                        <a href="#moto">
+                            <div class="prod">
+                                <h3 class="product__title">BMW S 1000 RR</h3>
+                                <img src="assets/s1000.jpg" alt="s1000rr image">
+                                <p>BMW S1000RR – A high-performance superbike delivering 205 hp, cutting-edge electronics, and race-ready precision. Designed for speed, agility, and total control on both track and road.</p>
+                            </div>
+                        </a>
+                        <a href="#car">
+                            <div class="prod">
+                                <h3 class="product__title">KIA EV6</h3>
+                                <img class="kia" src="assets/kia-ev6.jpg" alt="kiaEV6 image" style="width: 250px;">
+                                <p>Kia EV6 – A bold all-electric crossover offering up to 528 km of range, ultra-fast charging, and a futuristic design. Combines performance, innovation, and sustainability in one sleek package.</p>
+                            </div>
+                        </a>
+                        <a href="#bike">
+                            <div class="prod">
+                                <h3 class="product__title">Shimano 21-Speed Bike</h3>
+                                <img src="assets/shimano.jpg" alt="shimano image">
+                                <p>Shimano 21-Speed Bike – A versatile and durable bicycle equipped with a smooth 21-speed Shimano gear system, ideal for both city commuting and off-road adventures. Combines comfort, control, and performance for riders of all levels.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact hidden" id="contact">
+                <h1 class="contact__title">Get in Touch !</h1>
+                <form action="GET">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                    <button class="btn">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="hidden">
+            <h2>© 2025 Arngren</h2>
+            <div class="footer__icons">
+                <a href="https://github.com/Skander006"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/skander-saafi-a987402aa/"><i class="fa-brands fa-github icone-github"></i></a>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
