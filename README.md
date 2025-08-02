@@ -50,5 +50,11 @@ And for the responsive :
 
 ---
 
-## 📂 Folder Structure
-
+## Folder Structure
+Arngren/
+├── index.html
+├── style.css
+├── script.js
+├── /images
+├── /fonts (optional)
+└── README.md
